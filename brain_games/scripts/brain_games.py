@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 
 def text_for_string():
     print(f"poetry run python -m brain_games.scripts.brain_games Welcome to the Brain Games!")
