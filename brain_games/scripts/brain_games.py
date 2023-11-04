@@ -2,6 +2,7 @@
 
 from brain_games.cli import welcome_user
 from brain_games.scripts.brain_even import brain_even
+from brain_games.scripts.brain_calc import brain_calculator
 
 
 def text_for_string():
@@ -12,6 +13,7 @@ def main():
     text_for_string()
     welcome_user()
     brain_even()
+    brain_calculator()
 
 
 if __name__ == '__main__':
