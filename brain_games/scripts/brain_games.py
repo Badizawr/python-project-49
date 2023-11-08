@@ -14,11 +14,19 @@ def text_for_string():
 def main():
     text_for_string()
     brain_games.cli.welcome_user()
-    brain_even()
-    brain_calculator()
-    brain_gcd()
-    brain_progression()
-    brain_even()
+    temp = input("enter the game name: ")
+    match temp:
+        case "brain-even":
+            return brain_even()
+        case "brain-calc":
+            return brain_calculator()
+        case "brain-gcd":
+            return brain_gcd()
+        case "brain-progression":
+            return brain_progression()
+        case "brain-prime":
+            return brain_even()
+    return f"Your input {temp}"
 
 
 if __name__ == '__main__':
