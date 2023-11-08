@@ -18,6 +18,7 @@ def main():
     brain_calculator()
     brain_gcd()
     brain_progression()
+    brain_even()
 
 
 if __name__ == '__main__':
