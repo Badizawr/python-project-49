@@ -1,7 +1,7 @@
 from random import randint, choice
 
 
-def brain_calculator():
+def brain_calculator() -> object:
     print('What is the result of the expression?')
     count = 0
     while count < 3:
