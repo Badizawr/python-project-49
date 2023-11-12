@@ -19,3 +19,9 @@ def brain_gcd():
         print('Congratulations, you won!')
 
 
+def main():
+    brain_gcd()
+
+
+if __name__ == '__main__':
+    main()

@@ -28,4 +28,9 @@ def is_prime(number):
     return True
 
 
+def main():
+    brain_prime()
 
+
+if __name__ == '__main__':
+    main()
