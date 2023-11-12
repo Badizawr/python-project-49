@@ -19,4 +19,9 @@ def brain_even():
         print('Congratulations, you won!')
 
 
+def main():
+    brain_even()
 
+
+if __name__ == '__main__':
+    main()

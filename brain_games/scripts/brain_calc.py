@@ -1,4 +1,5 @@
 from random import randint, choice
+from brain_games.cli import welcome_user
 
 
 def brain_calculator() -> object:
@@ -20,4 +21,10 @@ def brain_calculator() -> object:
         print('Congratulations, you won!')
 
 
+def main():
+    brain_calculator()
 
+
+
+if __name__ == '__main__':
+    main()

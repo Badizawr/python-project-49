@@ -22,4 +22,9 @@ def brain_progression():
         print('Congratulations, you won!')
 
 
+def main():
+    brain_progression()
 
+
+if __name__ == '__main__':
+    main()
