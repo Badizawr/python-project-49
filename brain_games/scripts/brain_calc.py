@@ -2,7 +2,7 @@ from random import randint, choice
 from brain_games.cli import welcome_user
 
 
-def brain_calculator() -> object:
+def brain_calculator():
     print('What is the result of the expression?')
     count = 0
     while count < 3:
@@ -19,12 +19,3 @@ def brain_calculator() -> object:
             break
     else:
         print('Congratulations, you won!')
-
-
-def main():
-    brain_calculator()
-
-
-
-if __name__ == '__main__':
-    main()
