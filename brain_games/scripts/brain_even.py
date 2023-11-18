@@ -1,5 +1,7 @@
 from random import randint
 
+import prompt
+
 
 def brain_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -7,7 +9,7 @@ def brain_even():
     while count < 3:
         number = randint(1, 100)
         print(f'Question: {number}')
-        answer = prompt('Your answer: ')
+        answer = prompt.integer('Your answer: ')
         if (answer == 'yes' and number % 2 == 0) or (answer == 'no' and number % 2 != 0):
             print('Correct!')
             count += 1
