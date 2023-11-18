@@ -9,19 +9,6 @@ from brain_games.scripts.brain_progression import brain_progression
 
 def main():
     brain_games.cli.welcome_user()
-    temp = input("enter the game name: ")
-    match temp:
-        case "brain-even":
-            return brain_even()
-        case "brain-calc":
-            return brain_calculator()
-        case "brain-gcd":
-            return brain_gcd()
-        case "brain-progression":
-            return brain_progression()
-        case "brain-prime":
-            return brain_prime()
-    return f"Your input {temp}"
 
 
 if __name__ == '__main__':
