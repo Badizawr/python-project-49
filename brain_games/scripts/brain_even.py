@@ -6,8 +6,8 @@ def brain_even():
     count = 0
     while count < 3:
         number = randint(1, 100)
-        print(number)
-        answer = input('Your answer: ')
+        print(f'Question: {number}')
+        answer = prompt('Your answer: ')
         if (answer == 'yes' and number % 2 == 0) or (answer == 'no' and number % 2 != 0):
             print('Correct!')
             count += 1
