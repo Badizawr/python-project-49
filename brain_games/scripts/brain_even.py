@@ -1,15 +1,13 @@
 from random import randint
 
-import prompt
-
 
 def brain_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     while count < 3:
         number = randint(1, 100)
-        print(f'Question: {number}')
-        answer = prompt.integer('Your answer: ')
+        print(number)
+        answer = input('Your answer: ')
         if (answer == 'yes' and number % 2 == 0) or (answer == 'no' and number % 2 != 0):
             print('Correct!')
             count += 1
@@ -20,10 +18,3 @@ def brain_even():
     else:
         print('Congratulations, you won!')
 
-
-def main():
-    brain_even()
-
-
-if __name__ == '__main__':
-    main()
