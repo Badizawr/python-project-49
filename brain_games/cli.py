@@ -9,4 +9,3 @@ def welcome_user():
     game_list = "\n".join(games)
     print(f"{greeting}\n{separator}\n{game_list}\n{separator}")
 
-

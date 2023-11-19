@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "brain_games"
 authors = ["darkwolf <darkwolf1990janary@gmail.com>"]
 readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
 packages = [
   { include = "brain_games" },
 ]
