@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "brain_games"
+description = "brain-games"
 authors = ["darkwolf <darkwolf1990janary@gmail.com>"]
 readme = "README.md"
 classifiers = [
