@@ -18,3 +18,10 @@ def brain_even():
     else:
         print('Congratulations, you won!')
 
+
+def main():
+    brain_even()
+
+
+if __name__ == '__main__':
+    main()
