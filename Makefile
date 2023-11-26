@@ -1,7 +1,7 @@
 install:
 	poetry install
 
-brain-games:
+hexlet-games:
 	poetry run brain-games
 
 brain-even:
