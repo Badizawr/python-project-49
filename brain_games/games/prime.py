@@ -1,7 +1,7 @@
-
 from random import randrange
 
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -14,8 +14,6 @@ def is_prime(number):
 
 
 def generate_data():
-    rand_num = randrange(100)
-    if is_prime(rand_num):
-        return f'{rand_num}', 'yes'
-    else:
-        return f'{rand_num}', 'no'
+    range = 100
+    rand_num = randrange(range)
+    return f'{rand_num}', 'yes' if is_prime(rand_num) else 'no'

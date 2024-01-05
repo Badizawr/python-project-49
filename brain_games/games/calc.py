@@ -1,12 +1,14 @@
 from random import choice
 from random import randrange
 
-RULES = 'What is the result of the expression?'
+
+RULE = 'What is the result of the expression?'
 
 
 def generate_data():
+    range = 10
     result = ''
-    a, b, exp = randrange(10), randrange(10), choice(['+', '-', '*'])
+    a, b, exp = randrange(range), randrange(range), choice(['+', '-', '*'])
 
     match exp:
         case '+':

@@ -1,14 +1,16 @@
 import prompt
-CHANCES = 3
+
+
+CHANCE = 3
 
 
 def start(game):
 
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
-    print(game.RULES)
+    print(game.RULE)
 
-    for _ in range(CHANCES):
+    for _ in range(CHANCE):
 
         question, corr_answer = game.generate_data()
         print(f'Question: {question}')
