@@ -15,7 +15,6 @@ def start(game):
         question, corr_answer = game.generate_data()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
-
         if user_answer == corr_answer:
             print('Correct!')
         else:
