@@ -11,6 +11,5 @@ def is_even(number):
 def generate_data():
     range = 100
     rand_num = randrange(range)
-    
     is_even_str = 'yes' if is_even(rand_num) else 'no'
     return f'{rand_num}', is_even_str
