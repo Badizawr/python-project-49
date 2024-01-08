@@ -9,7 +9,7 @@ def is_even(number):
 
 
 def generate_data():
-    band = 100
-    rand_num = randrange(band)
+    MAX_NUM = 100
+    rand_num = randrange(MAX_NUM)
     is_even_str = 'yes' if is_even(rand_num) else 'no'
     return f'{rand_num}', is_even_str

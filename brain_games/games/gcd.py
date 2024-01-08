@@ -6,7 +6,7 @@ RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_data():
-    start_range = 1
-    end_range = 100
-    a, b = randrange(start_range, end_range), randrange(start_range, end_range)
+    START_RANGE = 1
+    END_RANGE = 100
+    a, b = randrange(START_RANGE, END_RANGE), randrange(START_RANGE, END_RANGE)
     return f'{a} {b}', str(gcd(a, b))

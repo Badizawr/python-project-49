@@ -14,6 +14,6 @@ def is_prime(number):
 
 
 def generate_data():
-    band = 100
-    rand_num = randrange(band)
+    MAX_NUM = 100
+    rand_num = randrange(MAX_NUM)
     return f'{rand_num}', 'yes' if is_prime(rand_num) else 'no'

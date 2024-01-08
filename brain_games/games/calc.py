@@ -6,9 +6,9 @@ RULE = 'What is the result of the expression?'
 
 
 def generate_data():
-    band = 10
+    MAX_NUM = 10
     result = ''
-    a, b, exp = randrange(band), randrange(band), choice(['+', '-', '*'])
+    a, b, exp = randrange(MAX_NUM), randrange(MAX_NUM), choice(['+', '-', '*'])
 
     match exp:
         case '+':
