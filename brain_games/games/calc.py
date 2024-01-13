@@ -1,4 +1,4 @@
-from brain_games.const_file import END_RANGE, RULE
+
 from random import choice
 from random import randrange
 
