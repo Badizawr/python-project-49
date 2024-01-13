@@ -1,14 +1,14 @@
+from brain_games.const_file import MAX_NUM_, RULE
 from random import choice
 from random import randrange
 
-
-RULE = 'What is the result of the expression?'
+RULE
 
 
 def generate_data():
-    MAX_NUM = 10
+
     result = ''
-    a, b, exp = randrange(MAX_NUM), randrange(MAX_NUM), choice(['+', '-', '*'])
+    a, b, exp = randrange(MAX_NUM_), randrange(MAX_NUM_), choice(['+', '-', '*'])
 
     match exp:
         case '+':
