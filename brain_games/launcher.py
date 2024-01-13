@@ -1,5 +1,7 @@
 import prompt
-from brain_games.const_file import CHANCE
+
+
+CHANCE = 3
 
 
 def start(game):

@@ -1,8 +1,8 @@
-from brain_games.const_file import END_RANGE, RULE_EVEN
 from random import randrange
 
 
-RULE_EVEN
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+END_RANGE = 100
 
 
 def is_even(number):
