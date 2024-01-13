@@ -11,9 +11,9 @@ RULE = 'What number is missing in the progression?'
 def generate_data():
     arithmetic_progression = []
 
-    start_num = randrange(RANDOM_NUMBER_RANGE)  # Start number of arithmetic progression
-    step = randrange(START_RANGE, END_RANGE)  # Step of progression
-    random_index = randrange(START_RANGE, END_RANGE)  # Random num to hide the field progression
+    start_num = randrange(RANDOM_NUMBER_RANGE)
+    step = randrange(START_RANGE, END_RANGE)
+    random_index = randrange(START_RANGE, END_RANGE)
 
     for i in range(TOTAL_RANGE):
         arithmetic_progression.append(start_num + step)
