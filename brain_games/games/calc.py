@@ -1,12 +1,13 @@
-from brain_games.const_file import END_RANGE, RULE
 from random import choice
 from random import randrange
 
-RULE
+
+END_RANGE = 10
+
+RULE = 'What is the result of the expression?'
 
 
 def generate_data():
-
     result = ''
     a, b, exp = randrange(END_RANGE), randrange(END_RANGE), choice(['+', '-', '*'])
 

@@ -1,8 +1,8 @@
-from brain_games.const_file import MAX_NUM, RULE_PRIME
 from random import randrange
 
+MAX_NUM = 100
 
-RULE_PRIME
+RULE_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):

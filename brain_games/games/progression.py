@@ -1,11 +1,14 @@
-from brain_games.const_file import TOTAL_RANGE, STEP, RANDOM_INDEX, MAX_NUM_
 from random import randrange
 
+TOTAL_RANGE = 10
+START_NUM = randrange(100)  # Start number of arithmetic progression
+STEP = randrange(1, 10)  # Step of progression
+RANDOM_INDEX = randrange(1, 10)  # Random num to hide the field progression
 
 RULE = 'What number is missing in the progression?'
 
 
-def generate_data(START_NUM = randrange(MAX_NUM_)):
+def generate_data(START_NUM):
     arithmetic_progression = []
     for i in range(TOTAL_RANGE):
         arithmetic_progression.append(START_NUM + STEP)
