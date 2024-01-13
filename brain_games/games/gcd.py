@@ -1,10 +1,10 @@
-from brain_games.const_file import START_RANGE, END_RANGE 
+from brain_games.const_file import START_RANGE, END_RANGE, RULE_GCD
 from math import gcd
 from random import randrange
-from brain_games.const_file import START_RANGE, END_RANGE
 
 
-RULE = 'Find the greatest common divisor of given numbers.'
+
+RULE_GCD
 
 
 def generate_data():

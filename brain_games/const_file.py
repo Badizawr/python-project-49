@@ -1,4 +1,5 @@
 from random import randrange
+RULE_GCD = 'Find the greatest common divisor of given numbers.'
 RULE_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
 RULE_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 RULE = 'What is the result of the expression?'
