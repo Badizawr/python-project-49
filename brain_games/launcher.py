@@ -1,6 +1,5 @@
 import prompt
 
-
 CHANCE = 3
 
 

@@ -1,6 +1,7 @@
 from random import choice, randrange
 
 
+
 RULE = 'What is the result of the expression?'
 RANGE = 10
 
