@@ -1,4 +1,4 @@
-from brain_games.const_file import MAX_NUM_, RULE_EVEN
+from brain_games.const_file import END_RANGE, RULE_EVEN
 from random import randrange
 
 
@@ -10,6 +10,6 @@ def is_even(number):
 
 
 def generate_data():
-    rand_num = randrange(MAX_NUM_)
+    rand_num = randrange(END_RANGE)
     is_even_str = 'yes' if is_even(rand_num) else 'no'
     return f'{rand_num}', is_even_str
