@@ -1,4 +1,4 @@
-from brain_games.const_file import MAX_NUM_, RULE
+from brain_games.const_file import END_RANGE, RULE
 from random import choice
 from random import randrange
 
@@ -8,7 +8,7 @@ RULE
 def generate_data():
 
     result = ''
-    a, b, exp = randrange(MAX_NUM_), randrange(MAX_NUM_), choice(['+', '-', '*'])
+    a, b, exp = randrange(END_RANGE), randrange(END_RANGE), choice(['+', '-', '*'])
 
     match exp:
         case '+':

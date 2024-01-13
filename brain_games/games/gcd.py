@@ -1,3 +1,4 @@
+from brain_games.const_file import START_RANGE, END_RANGE 
 from math import gcd
 from random import randrange
 
