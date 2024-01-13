@@ -1,5 +1,5 @@
 import prompt
-from brain_games.const_file import CHANCE, RULE
+from brain_games.const_file import CHANCE
 
 
 def start(game):
