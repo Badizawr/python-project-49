@@ -1,5 +1,6 @@
 from random import randrange
 
+MAX_NUM = 100
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -14,6 +15,5 @@ def is_prime(number):
 
 
 def generate_data():
-    MAX_NUM = 100
     rand_num = randrange(MAX_NUM)
     return f'{rand_num}', 'yes' if is_prime(rand_num) else 'no'
