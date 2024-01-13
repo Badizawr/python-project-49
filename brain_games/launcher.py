@@ -3,7 +3,6 @@ from brain_games.const_file import CHANCE
 
 
 def start(game):
-
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULE)
