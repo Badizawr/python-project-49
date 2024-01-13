@@ -1,12 +1,16 @@
-from brain_games.const_file import TOTAL_RANGE, STEP, RANDOM_INDEX, END_RANGE, RULE_PROGRESSION
 from random import randrange
 
 
-RULE_PROGRESSION
+RULE = 'What number is missing in the progression?'
+TOTAL_RANGE = 10
+END_RANGE = 100
+STEP = randrange(1, 10)
+RANDOM_INDEX = randrange(1, 10)
 
 
-def generate_data(START_NUM = randrange(END_RANGE)):
+def generate_data():
     arithmetic_progression = []
+    start_num = randrange(END_RANGE)
     for i in range(TOTAL_RANGE):
         arithmetic_progression.append(START_NUM + STEP)
         START_NUM += STEP

@@ -1,5 +1,7 @@
 import prompt
 
+CHANCE = 3
+
 
 def start(game):
 
