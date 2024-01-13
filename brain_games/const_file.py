@@ -9,3 +9,5 @@ TOTAL_RANGE = 10
 START_NUM_ = randrange(100)  # Start number of arithmetic progression
 STEP = randrange(1, 10)  # Step of progression
 RANDOM_INDEX = randrange(1, 10)  # Random num to hide the field progression
+START_RANGE = 1
+END_RANGE = 100
