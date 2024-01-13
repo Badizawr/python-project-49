@@ -1,8 +1,8 @@
-from brain_games.const_file import TOTAL_RANGE, STEP, RANDOM_INDEX, END_RANGE
+from brain_games.const_file import TOTAL_RANGE, STEP, RANDOM_INDEX, END_RANGE, RULE_PROGRESSION
 from random import randrange
 
 
-RULE = 'What number is missing in the progression?'
+RULE_PROGRESSION
 
 
 def generate_data(START_NUM = randrange(END_RANGE)):
