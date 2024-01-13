@@ -1,9 +1,9 @@
 from random import randrange
 
 
-RANGE = 100
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 ROOT_MATHEMATICS = 0.5
-RULE_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RANGE = 100
 
 
 def is_prime(number):

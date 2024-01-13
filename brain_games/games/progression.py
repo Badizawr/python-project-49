@@ -5,6 +5,10 @@ TOTAL_RANGE = 10
 START_RANGE = 1
 END_RANGE = 100
 RULE = 'What number is missing in the progression?'
+TOTAL_RANGE = 10
+END_RANGE = 100
+STEP = randrange(1, 10)
+RANDOM_INDEX = randrange(1, 10)
 
 
 def generate_data():
