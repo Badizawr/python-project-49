@@ -8,15 +8,9 @@ name: hexlet-check
 on:
   push:
     branches:
-<<<<<<< HEAD
-      - '**'
-    tags:
-      - '**'
-=======
       - ''
     tags:
       - ''
->>>>>>> 525900b
 
 jobs:
   build:
@@ -27,8 +21,4 @@ jobs:
       - name: Hexlet project check
         uses: hexlet/project-action@release
         with:
-<<<<<<< HEAD
           hexlet-id: ${{ secrets.HEXLET_ID }}
-=======
-          hexlet-id: ${{ secrets.HEXLET_ID }}
->>>>>>> 525900b

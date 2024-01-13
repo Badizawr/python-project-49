@@ -1,15 +1,13 @@
-from random import choice
-from random import randrange
+from random import choice, randrange
 
 
-END_RANGE = 10
-
+RANGE = 10
 RULE = 'What is the result of the expression?'
 
 
 def generate_data():
     result = ''
-    a, b, exp = randrange(END_RANGE), randrange(END_RANGE), choice(['+', '-', '*'])
+    a, b, exp = randrange(RANGE), randrange(RANGE), choice(['+', '-', '*'])
 
     match exp:
         case '+':

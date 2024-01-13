@@ -1,7 +1,7 @@
 from random import randrange
 
-END_RANGE = 100
 
+END_RANGE = 100
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 

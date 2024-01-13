@@ -4,7 +4,6 @@ from random import randrange
 
 START_RANGE = 1
 END_RANGE = 100
-
 RULE = 'Find the greatest common divisor of given numbers.'
 
 
