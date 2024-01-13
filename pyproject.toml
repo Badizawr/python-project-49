@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "brain-games"
-authors = ["darkwolf <darkwolf1990janary@gmail.com>"]
+authors = ["Badizawr <bravis-13@gmail.com>"]
 readme = "README.md"
 classifiers = [
     "Topic :: Software Development :: Build Tools",
